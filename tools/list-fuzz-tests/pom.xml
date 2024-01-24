@@ -16,19 +16,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>code-intelligence</id>
-			<url>https://gitlab.code-intelligence.com/api/v4/projects/89/packages/maven</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>code-intelligence</id>
-			<url>https://gitlab.code-intelligence.com/api/v4/projects/89/packages/maven</url>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<dependencies>
 		<!--
 		Runtime dependencies provided by the user for jazzer-junit, keep these in sync with the latest
@@ -60,7 +47,7 @@
 		<dependency>
 			<groupId>com.code-intelligence</groupId>
 			<artifactId>jazzer-junit</artifactId>
-			<version>0.23.0</version>
+			<version>0.21.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
