@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-BASE_URL="https://github.com/CodeIntelligenceTesting/cifuzz/releases/latest/download/"
+BASE_URL="https://github.com/0roman/cifuzz/releases/latest/download/"
 
 # detect os to get the correct url for the installer
 case $(uname -s) in
